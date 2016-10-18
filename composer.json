@@ -1,13 +1,13 @@
 {
-    "name": "r0bdiablo/laravel5-phumbor",
+    "name": "nitzer/laravel5-phumbor",
     "description": "Laravel 5 package adding support for the Phumbor PHP library for Thumbor.",
-	"homepage": "https://github.com/r0bdiablo/laravel5-phumbor",
+	"homepage": "https://github.com/nitzer/laravel5-phumbor",
 	"license": "MIT",
 	"keywords": ["laravel", "phumbor", "thumbor"],
     "authors": [
         {
-            "name": "Robert Pettique",
-            "email": "robert@rkcreative.co"
+            "name": "Hernando Farias",
+            "email": "bubastix0@gmail.com"
         }
     ],
     "require": {
@@ -20,8 +20,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "R0bdiabl0\\Laravel5Phumbor": "src/"
+            "Nitzer\\Laravel5Phumbor": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
