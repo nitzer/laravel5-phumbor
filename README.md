@@ -8,7 +8,7 @@ Installation
 
 Simply require the package in your `composer.json` file:
 
-    "r0diabl0/laravel5-phumbor": "dev-master"
+    "nitzer/laravel5-phumbor": "dev-master"
 
 Run `composer install` to download the package and have the autoloader updated.
 
@@ -16,14 +16,14 @@ Once installed, register the service provider with your Laravel application. Upd
 
 	'providers' = array(
 		// existing providers
-		R0bdiabl0\Laravel5Phumbor\Laravel5PhumborServiceProvider::class,
+		Nitzer\Laravel5Phumbor\Laravel5PhumborServiceProvider::class,
 	);
 
 and register the facade in the `aliases` section:
 
 	'aliases' => array(
 		// existing aliases
-		'Phumbor'   => R0bdiabl0\Laravel5Phumbor\Facades\Phumbor::class,
+		'Phumbor'   => Nitzer\Laravel5Phumbor\Facades\Phumbor::class,
 	);
 
 Now, publish the package's config file:
@@ -48,4 +48,4 @@ For example:
 License
 -------
 
-Licensed under the MIT license. See <https://github.com/r0bdiabl0/laravel5-phumbor/blob/master/LICENSE>
+Licensed under the MIT license. See <https://github.com/nitzer/laravel5-phumbor/blob/master/LICENSE>
